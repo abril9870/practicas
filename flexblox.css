@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    text-aling:center
+}
+.container{
+width:300px;
+margin: 20px;
+background:red;
+margin:5px;
+padding:5px;
+border: 2px solid blue;
+display:flex;
+}
+
+    div{
+        width:30px;
+        margin: 20px;
+        background:red;
+        margin:5px;
+        padding:5px;
+        border: 2px solid blue;
+    }
+    .f2{
+        flex-direction:column;
+    }
+    .f3{
+        flex-direction:column-reverse;
+    }
+    .f4{
+        flex-direction:row;
+    }
+    .f5{
+        flex-direction:row-reverse;
+    }
+    .f6{
+        flex-direction:nowrap;
+    }
+    .f7{
+        flex-direction:wrap;
+    }
+    .f8{
+        flex-direction:center;
+    }
+    .f9{
+        flex-direction:flex-start;
+    }
+    .f10{
+        flex-direction:flex-end;
+    }
+    .f11{
+        flex-direction:space-around;
+    }
+    .f12{
+        flex-direction:space-between;
+    }
+    .f13{
+        flex-direction:center;
+    }
+    .f14{
+        flex-direction:flex-start;
+    }
+    .f15{
+        flex-direction:flex-end;
+    }
+    .f16{
+        flex-direction:stretch;
+    }
+    .f17{
+        flex-direction:baseline;
+    }
+    .f18{
+        flex-direction:center;
+    }

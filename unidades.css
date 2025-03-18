@@ -1,0 +1,45 @@
+*{
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    }
+span{
+    font-family:"arial";
+    font-size:20px;
+    font-style:italic;
+    font-style: normal;
+    font-weight:300;
+}
+.t2{
+    font-family:"calibri";
+    font-size:40px;
+    font-style:oblique;
+    font-weight:300;
+} 
+.t3{
+    font-family:"calibri";
+    font-size:40px;
+    font-style:oblique;
+    font-weight:300;
+} 
+}
+.t4{
+    font-family:"calibri";
+    font-size:40px;
+    font-style:oblique;
+    font-weight:300;
+} 
+.t5{
+    font-family:"calibri";
+    font-size:40px;
+    font-style:oblique;
+    font-weight:300;
+} 
+
+.t6{
+    font-family:"calibri";
+    font-size:40px;
+    font-style:oblique;
+    font-weight:300;
+}

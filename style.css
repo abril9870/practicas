@@ -1,0 +1,106 @@
+div{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background:*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+} rgb(101, 1, 129);
+    margin: 10px;
+    color:white;
+    padding: 15px;
+}
+#cajita1{
+    border-width:thin;
+    border-style: dotted;
+    border-color:bisque red;
+}
+#cajita2{
+    border-width:medium;
+    border-style: dotted;
+    border-color:bisque blue green;
+}
+#cajita3{
+    border-width:thick;
+    border-style: dotted;
+    border-color:bisque red yellow green;
+}
+#cajita4{
+    border: thin dotted beige;
+}
+    
+#cajita6{
+    border: thin dotted rgb(151, 29, 69);
+}
+
+#cajita7{
+    border: thin dotted rgb(151, 29, 69);
+}
+#cajita8{
+    border: thin dotted rgb(151, 29, 69);
+}
+#cajita9{
+    border: thin dotted rgb(151, 29, 69);
+}
+#cajita10{
+    border: thin dotted rgb(151, 29, 69);
+}
+#cajita11{
+    border: thin dotted rgb(151, 29, 69);
+}
+#cajita12{
+    border: thin dotted rgb(151, 29, 69);
+}
+#cajita13{
+    border: thin dotted rgb(151, 29, 69);
+}
+
+#cajita14{
+    border-top: 10px dashed gold;
+    border-bottom:10px double paleturquoise(181,18,202,0,623);
+    border-left:10px solid palegreen(0,255,64);
+    border-right:15px dotted pink()
+
+}
+#cajita15 {
+    font-family: Jost, sans-serif;
+    font-size: 1rem;
+  
+    padding: 1rem 2rem;
+    background: none;
+    color: #000;
+  
+    border-image-source: linear-gradient(indigo, purple, hotpink);
+    border-image-slice: 1 1 1 1;
+    border-image-width: 0.25rem;  
+}
+#cajita16 {
+    --timing: linear(0, 0.3, 0.75, 1);
+  
+    font-family: Jost, sans-serif;
+    font-size: 0.5rem;
+  
+    padding: 1rem 2rem;
+    background: none;
+    color: #000;
+  
+    border-image-source: conic-gradient(from var(--a), indigo, purple, hotpink);
+    border-image-slice: 1 1 1 1;
+    border-image-width: 0.25rem;
+  
+    animation: move 1s infinite var(--timing);
+  
+  
+  }
+  
+  @keyframes move {
+    from { --a: 0deg; }
+    to { --a: 360deg; }
+  }
+  
+  @property --a {
+    syntax: "<angle>";
+    inherits: true;
+    initial-value: 0deg;
+  }
